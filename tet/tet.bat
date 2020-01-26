@@ -3,11 +3,11 @@ title tet
 color a
 cls
 color 6e
-type C:\Users\User\Desktop\more\tet\money\logo.txt
+type C:\Users\%Username%\Desktop\tet\money\logo.txt
 echo.
 timeout 10 > nul
 color a
-type C:\Users\User\Desktop\more\tet\luckeymoney.txt
+type C:\Users\%Username%\Desktop\tet\luckeymoney.txt
 echo.
 pause
 cls
@@ -15,13 +15,13 @@ goto li_xi
 :li_xi
 cls
 color c
-type C:\Users\User\Desktop\more\tet\li_xi.txt
+type C:\Users\%Username%\Desktop\tet\li_xi.txt
 timeout 1 > nul
 cls
-type C:\Users\User\Desktop\more\tet\li_xi_2.txt
+type C:\Users\%Username%\Desktop\tet\li_xi_2.txt
 timeout 2 > nul
 cls
-type C:\Users\User\Desktop\more\tet\li_xi.txt
+type C:\Users\%Username%\Desktop\tet\li_xi.txt
 SETLOCAL EnableDelayedExpansion
 for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (
   set "DEL=%%a"
@@ -38,7 +38,7 @@ if %ERRORLEVEL% == 3 goto exit
 :open
 cls
 color c
-type C:\Users\User\Desktop\more\tet\li_xi_open.txt
+type C:\Users\%Username%\Desktop\tet\li_xi_open.txt
 echo.
 echo loading...
 timeout 5 > nul
@@ -69,22 +69,22 @@ if %select% == 8 goto 7
 rem type fivedola_gold.txt
 goto showme
 :1
-type C:\Users\User\Desktop\more\tet\money\1bigdola.txt
+type C:\Users\%Username%\Desktop\tet\money\1bigdola.txt
 goto next
 :2
-goto type C:\Users\User\Desktop\more\tet\money\1dola.txt
+goto type C:\Users\%Username%\Desktop\tet\money\1dola.txt
 goto next
 :3
-type C:\Users\User\Desktop\more\tet\money\1dola_old.txt
+type C:\Users\%Username%\Desktop\tet\money\1dola_old.txt
 goto next
 :4
-type C:\Users\User\Desktop\more\tet\money\50dola.txt
+type C:\Users\%Username%\Desktop\tet\money\50dola.txt
 goto next
 :5
-type C:\Users\User\Desktop\more\tet\money\100dola.txt
+type C:\Users\%Username%\Desktop\tet\money\100dola.txt
 goto next
 :6
-type C:\Users\User\Desktop\more\tet\money\combo100dola.txt
+type C:\Users\%Username%\Desktop\tet\money\combo100dola.txt
 goto next
 :7
 type C:\Users\User\Desktop\more\tet\money\fivedola_gold.txt
