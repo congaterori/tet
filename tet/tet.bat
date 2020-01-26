@@ -87,7 +87,7 @@ goto next
 type C:\Users\%Username%\Desktop\tet\money\combo100dola.txt
 goto next
 :7
-type C:\Users\User\Desktop\more\tet\money\fivedola_gold.txt
+type C:\Users\%Username%\Desktop\tet\money\fivedola_gold.txt
 goto next
 :next
 color a
