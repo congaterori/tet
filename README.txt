@@ -6,4 +6,4 @@ logo or feature in folder tet not in money
 update: 26/1/2020
 video here:
 
-[![tet](https://shorturl.at/ayOP2)](https://www.facebook.com/johnny20061234/videos/752484858612782)
+[![tet](https://shorturl.at/ayOP2)](https://www.facebook.com/johnny20061234/videos/752484858612782)]
