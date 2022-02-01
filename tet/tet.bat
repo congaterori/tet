@@ -3,7 +3,7 @@ title tet
 color a
 cls
 color 6e
-type .\money\logo.txt
+type .\logo.txt
 echo.
 timeout 10 > nul
 color a
